@@ -7,3 +7,7 @@ on:
   pull_request:
     branches:
       - main
+
+env:
+  CSV_URL: "MLproject/train_pca.csv
+  TARGET_VAR : "Credit_Score"
